@@ -1,0 +1,1 @@
+Seven 129-task runs, labeled patch by patch: Gemma 4 31B runs out of time before it edits, E4B edits the wrong place or the right place wrongly, and gold edit locations leave 31B at 26 solved tasks against 27.

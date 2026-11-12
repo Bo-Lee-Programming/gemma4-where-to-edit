@@ -1,0 +1,19 @@
+{
+ "gold": "Segment._split_cells",
+ "gold_lines": [
+  109,
+  159
+ ],
+ "n_gold_units": 1,
+ "named": "Segment.split_cells",
+ "named_calls_gold": true,
+ "named_lines": [
+  161,
+  181
+ ],
+ "path": "rich/segment.py",
+ "rank_grep": 47,
+ "rank_skill": 3,
+ "task": "rich_3521",
+ "title": "Segment.split_cells fix"
+}

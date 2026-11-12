@@ -1,0 +1,55 @@
+{
+ "tasks": 129,
+ "snapshots": 117,
+ "snapshots_shared_by_tasks": [
+  [
+   "fastapi_15030",
+   "fastapi_15023"
+  ],
+  [
+   "requests_7315",
+   "requests_7328"
+  ],
+  [
+   "fastapi_14258",
+   "fastapi_14873"
+  ],
+  [
+   "fastapi_14492",
+   "fastapi_14791"
+  ],
+  [
+   "fastapi_14479",
+   "fastapi_14605"
+  ],
+  [
+   "fastapi_14512",
+   "fastapi_14487"
+  ],
+  [
+   "fastapi_14361",
+   "fastapi_13786"
+  ],
+  [
+   "rich_3953",
+   "rich_3944"
+  ],
+  [
+   "rich_3882",
+   "rich_3894",
+   "rich_3930"
+  ],
+  [
+   "requests_6629",
+   "requests_6589"
+  ],
+  [
+   "rich_3043",
+   "rich_3006"
+  ]
+ ],
+ "tasks_with_more_than_12_gold_units": 7,
+ "selftest_full_text_query_own_gold": 129,
+ "selftest_title_only_query_own_gold": 129,
+ "locate_bytes": 194947
+}

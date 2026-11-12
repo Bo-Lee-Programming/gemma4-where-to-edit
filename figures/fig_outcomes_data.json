@@ -1,0 +1,51 @@
+{
+ "b31_base": {
+  "covered": 26,
+  "no_patch": 54,
+  "partial": 16,
+  "resolved": 27,
+  "wrong_place": 6
+ },
+ "b31_gold": {
+  "covered": 26,
+  "no_patch": 45,
+  "partial": 17,
+  "resolved": 26,
+  "wrong_place": 15
+ },
+ "b31_skill": {
+  "covered": 23,
+  "no_patch": 55,
+  "partial": 15,
+  "resolved": 25,
+  "wrong_place": 11
+ },
+ "e4b_base": {
+  "covered": 33,
+  "no_patch": 9,
+  "partial": 29,
+  "resolved": 12,
+  "wrong_place": 46
+ },
+ "e4b_base2": {
+  "covered": 32,
+  "no_patch": 10,
+  "partial": 23,
+  "resolved": 13,
+  "wrong_place": 51
+ },
+ "e4b_ctrl": {
+  "covered": 28,
+  "no_patch": 11,
+  "partial": 21,
+  "resolved": 12,
+  "wrong_place": 57
+ },
+ "e4b_skill": {
+  "covered": 39,
+  "no_patch": 3,
+  "partial": 24,
+  "resolved": 13,
+  "wrong_place": 50
+ }
+}

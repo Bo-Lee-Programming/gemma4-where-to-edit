@@ -1,0 +1,66 @@
+{
+ "competition/symbol_named/func/hit@10/graph": {
+  "ci95": [
+   0.8285714285714286,
+   1.0
+  ],
+  "mean": 0.9142857142857143,
+  "n": 35
+ },
+ "competition/symbol_named/func/hit@10/grep": {
+  "ci95": [
+   0.8571428571428571,
+   1.0
+  ],
+  "mean": 0.9428571428571428,
+  "n": 35
+ },
+ "competition/symbol_not_named/func/hit@10/graph": {
+  "ci95": [
+   0.2976190476190476,
+   0.5119047619047619
+  ],
+  "mean": 0.40476190476190477,
+  "n": 84
+ },
+ "competition/symbol_not_named/func/hit@10/grep": {
+  "ci95": [
+   0.19047619047619047,
+   0.36904761904761907
+  ],
+  "mean": 0.27380952380952384,
+  "n": 84
+ },
+ "swebench_verified/symbol_named/func/hit@10/graph": {
+  "ci95": [
+   0.7662337662337663,
+   0.8658008658008658
+  ],
+  "mean": 0.8181818181818182,
+  "n": 231
+ },
+ "swebench_verified/symbol_named/func/hit@10/grep": {
+  "ci95": [
+   0.7748917748917749,
+   0.8744588744588745
+  ],
+  "mean": 0.8268398268398268,
+  "n": 231
+ },
+ "swebench_verified/symbol_not_named/func/hit@10/graph": {
+  "ci95": [
+   0.40551181102362205,
+   0.5236220472440944
+  ],
+  "mean": 0.4645669291338583,
+  "n": 254
+ },
+ "swebench_verified/symbol_not_named/func/hit@10/grep": {
+  "ci95": [
+   0.1141732283464567,
+   0.2047244094488189
+  ],
+  "mean": 0.15748031496062992,
+  "n": 254
+ }
+}

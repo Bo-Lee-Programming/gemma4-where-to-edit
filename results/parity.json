@@ -1,0 +1,65 @@
+{
+ "all_equal": true,
+ "tasks": [
+  {
+   "id": "fastapi_15661",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 72
+  },
+  {
+   "id": "fastapi_15588",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 72
+  },
+  {
+   "id": "fastapi_15589",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 72
+  },
+  {
+   "id": "requests_7505",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 20
+  },
+  {
+   "id": "requests_7502",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 20
+  },
+  {
+   "id": "requests_7433",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 20
+  },
+  {
+   "id": "rich_4070",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 106
+  },
+  {
+   "id": "rich_4077",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 106
+  },
+  {
+   "id": "rich_4079",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 106
+  },
+  {
+   "id": "httpx_3672",
+   "same_file_set": true,
+   "same_graph_ranking": true,
+   "n_files": 32
+  }
+ ]
+}

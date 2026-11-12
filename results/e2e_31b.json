@@ -1,0 +1,599 @@
+{
+ "n": 129,
+ "order": [
+  "baseline",
+  "skill",
+  "gold"
+ ],
+ "paired": {
+  "gold-baseline": {
+   "file_hit": {
+    "diff": {
+     "ci95": [
+      -0.016,
+      0.16
+     ],
+     "mean": 0.072,
+     "p_boot_le0": 0.059
+    },
+    "gained": 20,
+    "gained_ids": [
+     "fastapi_13786",
+     "fastapi_14099",
+     "fastapi_14186",
+     "fastapi_14258",
+     "fastapi_14262",
+     "fastapi_14349",
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_14485",
+     "fastapi_14953",
+     "fastapi_15763",
+     "fastapi_5624",
+     "requests_6589",
+     "rich_2943",
+     "rich_3468",
+     "rich_3535",
+     "rich_3777",
+     "rich_3782",
+     "rich_3942",
+     "rich_4070"
+    ],
+    "lost": 11,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_13713",
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_14873",
+     "requests_7205",
+     "requests_7502",
+     "rich_3480",
+     "rich_3486",
+     "rich_4077"
+    ],
+    "n": 125,
+    "sign_p": 0.14961278438568115
+   },
+   "resolved": {
+    "diff": {
+     "ci95": [
+      -0.046511627906976744,
+      0.031007751937984496
+     ],
+     "mean": -0.007751937984496124,
+     "p_boot_le0": 0.7256
+    },
+    "gained": 3,
+    "gained_ids": [
+     "fastapi_5624",
+     "rich_2943",
+     "rich_3777"
+    ],
+    "lost": 4,
+    "lost_ids": [
+     "fastapi_14419",
+     "fastapi_14463",
+     "fastapi_14873",
+     "rich_4077"
+    ],
+    "n": 129,
+    "sign_p": 1.0
+   },
+   "tool_calls": {
+    "ci95": [
+     -1.813953488372093,
+     0.5660852713178266
+    ],
+    "mean": -0.6201550387596899,
+    "p_boot_le0": 0.8498
+   },
+   "unit_hit": {
+    "diff": {
+     "ci95": [
+      -0.08403361344537816,
+      0.10084033613445378
+     ],
+     "mean": 0.008403361344537815,
+     "p_boot_le0": 0.462
+    },
+    "gained": 16,
+    "gained_ids": [
+     "fastapi_13786",
+     "fastapi_14258",
+     "fastapi_14262",
+     "fastapi_14349",
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_14953",
+     "fastapi_15763",
+     "fastapi_5624",
+     "fastapi_9425",
+     "requests_6589",
+     "rich_2943",
+     "rich_3468",
+     "rich_3777",
+     "rich_3782",
+     "rich_4070"
+    ],
+    "lost": 15,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_13713",
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_14463",
+     "fastapi_14873",
+     "fastapi_14964",
+     "requests_7205",
+     "requests_7502",
+     "requests_7505",
+     "rich_3480",
+     "rich_3486",
+     "rich_3930",
+     "rich_4077"
+    ],
+    "n": 119,
+    "sign_p": 1.0
+   },
+   "unit_hit_unnamed": {
+    "diff": {
+     "ci95": [
+      -0.08333333333333333,
+      0.13095238095238096
+     ],
+     "mean": 0.023809523809523808,
+     "p_boot_le0": 0.3701
+    },
+    "gained": 11,
+    "gained_ids": [
+     "fastapi_14258",
+     "fastapi_14349",
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_14953",
+     "fastapi_15763",
+     "fastapi_5624",
+     "fastapi_9425",
+     "rich_2943",
+     "rich_3468",
+     "rich_3777"
+    ],
+    "lost": 9,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_14463",
+     "requests_7205",
+     "requests_7505",
+     "rich_3930",
+     "rich_4077"
+    ],
+    "n": 84,
+    "sign_p": 0.8238029479980469
+   }
+  },
+  "gold-skill": {
+   "file_hit": {
+    "diff": {
+     "ci95": [
+      0.0,
+      0.168
+     ],
+     "mean": 0.08,
+     "p_boot_le0": 0.0377
+    },
+    "gained": 20,
+    "gained_ids": [
+     "fastapi_14099",
+     "fastapi_14262",
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_14485",
+     "fastapi_15030",
+     "fastapi_15280",
+     "fastapi_5077",
+     "fastapi_9555",
+     "fastapi_9753",
+     "httpx_3672",
+     "requests_6629",
+     "requests_7309",
+     "requests_7433",
+     "requests_7505",
+     "rich_3061",
+     "rich_3468",
+     "rich_3535",
+     "rich_3782",
+     "rich_3942"
+    ],
+    "lost": 10,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_13713",
+     "fastapi_14306",
+     "fastapi_14371",
+     "fastapi_14978",
+     "requests_7205",
+     "requests_7502",
+     "rich_2725",
+     "rich_3063",
+     "rich_3953"
+    ],
+    "n": 125,
+    "sign_p": 0.09873714670538902
+   },
+   "resolved": {
+    "diff": {
+     "ci95": [
+      -0.031007751937984496,
+      0.046511627906976744
+     ],
+     "mean": 0.007751937984496124,
+     "p_boot_le0": 0.4256
+    },
+    "gained": 4,
+    "gained_ids": [
+     "fastapi_5077",
+     "fastapi_9555",
+     "fastapi_9753",
+     "rich_3777"
+    ],
+    "lost": 3,
+    "lost_ids": [
+     "fastapi_14463",
+     "rich_2725",
+     "rich_3063"
+    ],
+    "n": 129,
+    "sign_p": 1.0
+   },
+   "tool_calls": {
+    "ci95": [
+     -1.2790697674418605,
+     0.9689922480620154
+    ],
+    "mean": -0.14728682170542637,
+    "p_boot_le0": 0.6047
+   },
+   "unit_hit": {
+    "diff": {
+     "ci95": [
+      -0.03361344537815126,
+      0.13445378151260504
+     ],
+     "mean": 0.05042016806722689,
+     "p_boot_le0": 0.1448
+    },
+    "gained": 16,
+    "gained_ids": [
+     "fastapi_14262",
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_15280",
+     "fastapi_15588",
+     "fastapi_5077",
+     "fastapi_9425",
+     "fastapi_9555",
+     "fastapi_9753",
+     "httpx_3672",
+     "requests_7309",
+     "requests_7433",
+     "rich_3061",
+     "rich_3468",
+     "rich_3777",
+     "rich_3782"
+    ],
+    "lost": 10,
+    "lost_ids": [
+     "fastapi_13713",
+     "fastapi_14306",
+     "fastapi_14463",
+     "fastapi_14964",
+     "fastapi_14978",
+     "requests_7205",
+     "requests_7502",
+     "rich_2725",
+     "rich_3063",
+     "rich_3953"
+    ],
+    "n": 119,
+    "sign_p": 0.32693958282470703
+   },
+   "unit_hit_unnamed": {
+    "diff": {
+     "ci95": [
+      -0.047619047619047616,
+      0.13095238095238096
+     ],
+     "mean": 0.03571428571428571,
+     "p_boot_le0": 0.2589
+    },
+    "gained": 9,
+    "gained_ids": [
+     "fastapi_14430",
+     "fastapi_14482",
+     "fastapi_15280",
+     "fastapi_15588",
+     "fastapi_9425",
+     "fastapi_9555",
+     "fastapi_9753",
+     "rich_3468",
+     "rich_3777"
+    ],
+    "lost": 6,
+    "lost_ids": [
+     "fastapi_14463",
+     "fastapi_14978",
+     "requests_7205",
+     "rich_2725",
+     "rich_3063",
+     "rich_3953"
+    ],
+    "n": 84,
+    "sign_p": 0.60723876953125
+   }
+  },
+  "skill-baseline": {
+   "file_hit": {
+    "diff": {
+     "ci95": [
+      -0.104,
+      0.088
+     ],
+     "mean": -0.008,
+     "p_boot_le0": 0.5986
+    },
+    "gained": 17,
+    "gained_ids": [
+     "fastapi_13786",
+     "fastapi_14186",
+     "fastapi_14258",
+     "fastapi_14306",
+     "fastapi_14349",
+     "fastapi_14371",
+     "fastapi_14953",
+     "fastapi_14978",
+     "fastapi_15763",
+     "fastapi_5624",
+     "requests_6589",
+     "rich_2725",
+     "rich_2943",
+     "rich_3063",
+     "rich_3777",
+     "rich_3953",
+     "rich_4070"
+    ],
+    "lost": 18,
+    "lost_ids": [
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_14873",
+     "fastapi_15030",
+     "fastapi_15280",
+     "fastapi_5077",
+     "fastapi_9555",
+     "fastapi_9753",
+     "httpx_3672",
+     "requests_6629",
+     "requests_7309",
+     "requests_7433",
+     "requests_7505",
+     "rich_3061",
+     "rich_3480",
+     "rich_3486",
+     "rich_4077"
+    ],
+    "n": 125,
+    "sign_p": 1.0
+   },
+   "resolved": {
+    "diff": {
+     "ci95": [
+      -0.06201550387596899,
+      0.031007751937984496
+     ],
+     "mean": -0.015503875968992248,
+     "p_boot_le0": 0.7963
+    },
+    "gained": 4,
+    "gained_ids": [
+     "fastapi_5624",
+     "rich_2725",
+     "rich_2943",
+     "rich_3063"
+    ],
+    "lost": 6,
+    "lost_ids": [
+     "fastapi_14419",
+     "fastapi_14873",
+     "fastapi_5077",
+     "fastapi_9555",
+     "fastapi_9753",
+     "rich_4077"
+    ],
+    "n": 129,
+    "sign_p": 0.75390625
+   },
+   "tool_calls": {
+    "ci95": [
+     -1.6744186046511629,
+     0.7366279069767413
+    ],
+    "mean": -0.4728682170542636,
+    "p_boot_le0": 0.7857
+   },
+   "unit_hit": {
+    "diff": {
+     "ci95": [
+      -0.13445378151260504,
+      0.05042016806722689
+     ],
+     "mean": -0.04201680672268908,
+     "p_boot_le0": 0.8327
+    },
+    "gained": 14,
+    "gained_ids": [
+     "fastapi_13786",
+     "fastapi_14258",
+     "fastapi_14306",
+     "fastapi_14349",
+     "fastapi_14953",
+     "fastapi_14978",
+     "fastapi_15763",
+     "fastapi_5624",
+     "requests_6589",
+     "rich_2725",
+     "rich_2943",
+     "rich_3063",
+     "rich_3953",
+     "rich_4070"
+    ],
+    "lost": 19,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_14873",
+     "fastapi_15280",
+     "fastapi_15588",
+     "fastapi_5077",
+     "fastapi_9555",
+     "fastapi_9753",
+     "httpx_3672",
+     "requests_7309",
+     "requests_7433",
+     "requests_7505",
+     "rich_3061",
+     "rich_3480",
+     "rich_3486",
+     "rich_3930",
+     "rich_4077"
+    ],
+    "n": 119,
+    "sign_p": 0.48685024166479707
+   },
+   "unit_hit_unnamed": {
+    "diff": {
+     "ci95": [
+      -0.11904761904761904,
+      0.09523809523809523
+     ],
+     "mean": -0.011904761904761904,
+     "p_boot_le0": 0.6271
+    },
+    "gained": 10,
+    "gained_ids": [
+     "fastapi_14258",
+     "fastapi_14349",
+     "fastapi_14953",
+     "fastapi_14978",
+     "fastapi_15763",
+     "fastapi_5624",
+     "rich_2725",
+     "rich_2943",
+     "rich_3063",
+     "rich_3953"
+    ],
+    "lost": 11,
+    "lost_ids": [
+     "fastapi_11355",
+     "fastapi_14246",
+     "fastapi_14419",
+     "fastapi_14455",
+     "fastapi_15280",
+     "fastapi_15588",
+     "fastapi_9555",
+     "fastapi_9753",
+     "requests_7505",
+     "rich_3930",
+     "rich_4077"
+    ],
+    "n": 84,
+    "sign_p": 1.0
+   }
+  }
+ },
+ "runs": {
+  "baseline": {
+   "edited_gold_file": 67,
+   "edited_gold_unit": 61,
+   "edited_gold_unit_named": 25,
+   "edited_gold_unit_unnamed": 36,
+   "edited_gold_unit_when_listed": 0,
+   "edited_gold_unit_when_not_listed": 0,
+   "empty_patches": 54,
+   "graph_tool_calls": 0,
+   "mean_tool_calls": 20.162790697674417,
+   "n_file": 125,
+   "n_indexed_not_listed": 0,
+   "n_unit": 119,
+   "n_unit_named": 35,
+   "n_unit_unnamed": 84,
+   "resolved": 27,
+   "resolved_when_listed": 0,
+   "resolved_when_not_listed": 0,
+   "skill_listed_gold_unit": 0,
+   "skill_listed_gold_unit_top3": 0,
+   "tasks_calling_skill": 0,
+   "tasks_editing_a_listed_unit": 0,
+   "tasks_skill_indexed_repo": 0,
+   "traces": 129
+  },
+  "gold": {
+   "edited_gold_file": 76,
+   "edited_gold_unit": 62,
+   "edited_gold_unit_named": 24,
+   "edited_gold_unit_unnamed": 38,
+   "edited_gold_unit_when_listed": 41,
+   "edited_gold_unit_when_not_listed": 0,
+   "empty_patches": 45,
+   "graph_tool_calls": 0,
+   "mean_tool_calls": 19.54263565891473,
+   "n_file": 125,
+   "n_indexed_not_listed": 0,
+   "n_unit": 119,
+   "n_unit_named": 35,
+   "n_unit_unnamed": 84,
+   "resolved": 26,
+   "resolved_when_listed": 12,
+   "resolved_when_not_listed": 0,
+   "skill_listed_gold_unit": 85,
+   "skill_listed_gold_unit_top3": 85,
+   "tasks_calling_skill": 96,
+   "tasks_editing_a_listed_unit": 41,
+   "tasks_skill_indexed_repo": 89,
+   "traces": 129
+  },
+  "skill": {
+   "edited_gold_file": 66,
+   "edited_gold_unit": 56,
+   "edited_gold_unit_named": 21,
+   "edited_gold_unit_unnamed": 35,
+   "edited_gold_unit_when_listed": 28,
+   "edited_gold_unit_when_not_listed": 5,
+   "empty_patches": 55,
+   "graph_tool_calls": 0,
+   "mean_tool_calls": 19.689922480620154,
+   "n_file": 125,
+   "n_indexed_not_listed": 25,
+   "n_unit": 119,
+   "n_unit_named": 35,
+   "n_unit_unnamed": 84,
+   "resolved": 25,
+   "resolved_when_listed": 9,
+   "resolved_when_not_listed": 1,
+   "skill_listed_gold_unit": 57,
+   "skill_listed_gold_unit_top3": 36,
+   "tasks_calling_skill": 92,
+   "tasks_editing_a_listed_unit": 31,
+   "tasks_skill_indexed_repo": 85,
+   "traces": 129
+  }
+ }
+}
